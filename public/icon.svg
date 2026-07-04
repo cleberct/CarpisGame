@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Deep Dark Industrial Background -->
+  <rect width="512" height="512" rx="112" fill="#0d0d0d" />
+  
+  <!-- Subtle Industrial Inner Circular Gauge Border -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#27272a" stroke-width="12" />
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#ea580c" stroke-width="12" stroke-dasharray="120 40 80 40 200 60" />
+
+  <!-- Cooling Ripple/Snowflake Accent in Background -->
+  <g opacity="0.15">
+    <line x1="256" y1="90" x2="256" y2="422" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" />
+    <line x1="90" y1="256" x2="422" y2="256" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" />
+    <line x1="138" y1="138" x2="374" y2="374" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" />
+    <line x1="138" y1="374" x2="374" y2="138" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Main Industrial Valve Handle & Nut (Bold Orange Highlight) -->
+  <g transform="translate(256, 256)">
+    <!-- Valve Outer Rim -->
+    <circle cx="0" cy="0" r="110" fill="none" stroke="#ea580c" stroke-width="20" />
+    
+    <!-- Outer Knobs of the Valve Handle -->
+    <circle cx="0" cy="-110" r="22" fill="#ea580c" />
+    <circle cx="95" cy="-55" r="22" fill="#ea580c" />
+    <circle cx="95" cy="55" r="22" fill="#ea580c" />
+    <circle cx="0" cy="110" r="22" fill="#ea580c" />
+    <circle cx="-95" cy="55" r="22" fill="#ea580c" />
+    <circle cx="-95" cy="-55" r="22" fill="#ea580c" />
+
+    <!-- Valve Spokes -->
+    <line x1="0" y1="-110" x2="0" y2="110" stroke="#ea580c" stroke-width="16" />
+    <line x1="-95" y1="-55" x2="95" y2="55" stroke="#ea580c" stroke-width="16" />
+    <line x1="-95" y1="55" x2="95" y2="-55" stroke="#ea580c" stroke-width="16" />
+
+    <!-- Center Hub Border -->
+    <circle cx="0" cy="0" r="45" fill="#121212" stroke="#ea580c" stroke-width="10" />
+    
+    <!-- Central Hex Bolt -->
+    <polygon points="0,-20 17,-10 17,10 0,20 -17,10 -17,-10" fill="#f97316" />
+    <circle cx="0" cy="0" r="5" fill="#0d0d0d" />
+  </g>
+
+  <!-- Technical Overlay Labels -->
+  <text x="256" y="415" font-family="monospace" font-weight="900" font-size="24" fill="#a1a1aa" letter-spacing="6" text-anchor="middle">R-717</text>
+  <text x="256" y="80" font-family="monospace" font-weight="700" font-size="16" fill="#ea580c" letter-spacing="4" text-anchor="middle">MAINTENANCE SYSTEM</text>
+</svg>

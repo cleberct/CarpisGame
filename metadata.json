@@ -1,0 +1,6 @@
+{
+  "name": "Mantenimiento R717",
+  "description": "Juego de simulación de mantenimiento industrial en tiempo real basado en el plano de refrigeración de la planta. Repara compresores, válvulas y sistemas bajo la presión del equipo de producción.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
